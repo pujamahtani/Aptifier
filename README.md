@@ -1,9 +1,7 @@
 <b>PROJECT DESCRIPTION<b>
-
-<b>APTIFIER<b>
 <hr>
 
-<p>More than 75% colleges conduct online tests for the students between there official term tests just to make
+<light>More than 75% colleges conduct online tests for the students between there official term tests just to make
 sure that the students are in touch with the terminologies and the concepts which are to be taught in different
 lectures planned all around the semester duration. Most of these tests are conducted online either on the
 official websites of these colleges or onto some online portal whereas our college uses Google forms to
@@ -13,7 +11,7 @@ of the students appearing for the tests. We aim to work on these 2 broad areas f
 implement face recognition for ensuring that the expected student is giving the test . This particular software
 will prevent cheating in these examinations, the overhead of using Google forms (once the data set is saved
 it can be used until the syllabus is changed) and promote integrity, credibility, data retrieval and the
-efficiency of conducting tests.<p>
+efficiency of conducting tests.<light>
 
 FUNCTIONAL REQUIREMENTS
 
