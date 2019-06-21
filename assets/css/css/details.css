@@ -1,0 +1,11 @@
+body{
+    background: #37abed;
+}
+.container{
+    width:600px;
+    margin:60px auto;
+    padding:30px;
+    height:1000px;
+    background: white;
+    box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.7);  
+}

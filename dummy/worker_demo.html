@@ -1,0 +1,36 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Worker Thread Sample</title>
+</head>
+<body>
+	<button onclick="print()">Print 50000 numbers without Wokrer</button>
+	<button onclick="printW()">Print 50000 numbers with Wokrer</button>
+	<button onclick="compute()">Click</button>
+<script>
+	function compute(){
+		worker.postMessage({'cmd':'avg1','data':[1,2,3,4]});
+	}
+	var worker = new Worker('worker_sample.js');
+	//var worker = new Worker('doWork.js');
+	
+	worker.addEventListener('message',function(e){
+		console.log(e.data);
+	},false);
+	
+	function print(){
+		for(i=0;i<10000;i++)
+			console.log(i);
+	}
+	function printW(){
+		workerN.postMessage('Print 10000 nos');
+	}
+	var workerN = new Worker('worker_sample2.js');
+	//var worker = new Worker('doWork.js');
+	
+	workerN.addEventListener('message',function(e){
+		console.log(e.data);
+	},false);
+	</script>
+</body>
+</html>
