@@ -75,7 +75,7 @@ b. All Given Tests
 
 c. Student Progress Graphs
 
-<img src="screenshots/graphs2.png">
+<img src="screenshots/graph2.png">
 
 d. Generate Test
 
