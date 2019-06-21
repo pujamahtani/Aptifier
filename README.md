@@ -52,6 +52,7 @@ the product.
 ➢ Good surrounding light is required in order to gain more efficient result from the software.
 
 <b>BLOCK DIAGRAM</b>
+
 <img src="screenshots/blockdiag.png">
 
 <b>SCREENSHOTS OF USER INTERFACE</b>
